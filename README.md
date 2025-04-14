@@ -1,5 +1,7 @@
 # Algoritmos e Estruturas de Dados II
 
+**Autor: Juscelino Pereira de Araújo**
+
 Este repositório destina-se ao compartilhamento dos artefatos produzidos na disciplina DCA3702 - Algoritmos e Estruturas de Dados II, ministrada pelo professor Ivanovitch Medeiros da Universidade Federal do Rio Grande do Norte (UFRN) no semestre 2025.1. Cada seção irá tratar de um diferente projeto desenvolvido ao longo do semestre.
 
 ## Projeto 1 - Redes Temporais de Coautoria

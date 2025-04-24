@@ -21,7 +21,7 @@ Uma primeira análise feita sobre os dados das redes de coautoria do PPGEEC é a
 * Número médio de vizinhos;
 * Distribuição do número de vizinhos.
 
-O gráfico a seguir mostra a evolução comparada, mediante séries temporais, entre as métricas de densidade, número de arestas, número de vértices e número médio de arestas. Os valores foram normalizados entre 0 e 1 para possibilitar uma comparação mais adequada.
+O gráfico a seguir mostra a evolução comparada, mediante séries temporais, entre as métricas de densidade, número de arestas, número de vértices e número médio de arestas. Os valores foram normalizados entre 0 e 1 para possibilitar uma comparação mais adequada. É possível ver uma tendência de crescimento até 2019 no número de vértices, número de arestas e número médio de vizinhos até 2020, quando passam a ser peceptíveis o que muito provavelmente são os efeitos do início da pademia do novo coronavírus. 
 
 ![](fig/evolucao.png)
 

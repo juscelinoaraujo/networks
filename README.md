@@ -12,7 +12,10 @@ Neste projeto é feita uma análise das redes de coautoria no âmbito do Program
 
 ### Evoluçao das redes de coautoria do PPGEEC ao longo dos anos
 
-
+As análises são baseadas em vários arquivos no formato gexf. Cada um deles contém uma rede de coautoria do PPGEEC para um período específico. São eles:
+* 16 grafos anuais (individualmente para cada ano de 2010 a 2025);
+* 4 gafos correspondentes aos peíodos das avaliações quadrienais da Fundação Coordenação paa o Apefeiçoamento do Pessoal do Nível Supeio - CAPES (2010-2012, 2013-2016, 2017-2020 e 2021 a 2024);
+* 1 grafo geral (com todos os dados de 2010 a 2025).
 
 Uma primeira análise feita sobre os dados das redes de coautoria do PPGEEC é a sua evolução ao longo do tempo de acordo com algumas métricas. Foram escolhidas as seguintes para fundamentar a análise:
 * Densidade;

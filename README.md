@@ -12,6 +12,7 @@ Neste projeto é feita uma análise das redes de coautoria no âmbito do Program
 
 ### Evoluçao das redes de coautoria do PPGEEC ao longo dos anos
 
+()[fig/evolucao.png]
 
 ### Redes de coautoria do PPGEEC nos períodos referentes às avaliações quadrienais da CAPES
 

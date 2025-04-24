@@ -14,7 +14,7 @@ Neste projeto é feita uma análise das redes de coautoria no âmbito do Program
 
 As análises são baseadas em vários arquivos no formato gexf. Cada um deles contém uma rede de coautoria do PPGEEC para um período específico. São eles:
 * 16 grafos anuais (individualmente para cada ano de 2010 a 2025);
-* 4 gafos correspondentes aos peíodos das avaliações quadrienais da Fundação Coordenação paa o Apefeiçoamento do Pessoal do Nível Supeio - CAPES (2010-2012, 2013-2016, 2017-2020 e 2021 a 2024);
+* 4 grafos correspondentes aos períodos das avaliações quadrienais da Fundação Coordenação para o Aperfeiçoamento do Pessoal do Nível Superior - CAPES (2010-2012, 2013-2016, 2017-2020 e 2021 a 2024);
 * 1 grafo geral (com todos os dados de 2010 a 2025).
 
 Uma primeira análise feita sobre os dados das redes de coautoria do PPGEEC é a sua evolução ao longo do tempo de acordo com algumas métricas. Foram escolhidas as seguintes para fundamentar a análise:
@@ -24,7 +24,7 @@ Uma primeira análise feita sobre os dados das redes de coautoria do PPGEEC é a
 * Número médio de vizinhos;
 * Distribuição do número de vizinhos.
 
-O gráfico a seguir mostra a evolução comparada, mediante séries temporais, entre as métricas de densidade, número de arestas, número de vértices e número médio de arestas. Os valores foram normalizados entre 0 e 1 para possibilitar uma comparação mais adequada. É possível ver uma tendência de crescimento até 2019 no número de vértices, número de arestas e número médio de vizinhos. A patir de 2020 passam a ser peceptíveis sinais de queda que muito provavelmente são os efeitos do início da pademia do novo coronavírus. 
+O gráfico a seguir mostra a evolução comparada, mediante séries temporais, entre as métricas de densidade, número de arestas, número de vértices e número médio de arestas. Os valores foram normalizados entre 0 e 1 para possibilitar uma comparação mais adequada. É possível ver uma tendência de crescimento até 2019 no número de vértices, número de arestas e número médio de vizinhos. A patir de 2020 passam a ser peceptíveis sinais de queda que muito provavelmente são os efeitos do início da pademia do novo coronavírus. Os dados referentes a 2025 são destoantes po estarem naturalmente incompletos, uma vez que essas análises estão sendo feitas em Abril de 2025.
 
 ![](fig/evolucao.png)
 

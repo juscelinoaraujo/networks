@@ -10,12 +10,14 @@ As redes de coautoria em trabalhos científicos são um importante ferramenta in
 
 Neste projeto é feita uma análise das redes de coautoria no âmbito do Programa de Pós-Graduação em Engenharia Elétrica e de Computação da Universidade Federal do Rio Grande do Norte (PPGEEC/UFRN) desde o ano 2010 até o presente. Tal análise é relevante por permitir uma compreensão aprofundada da evolução da colaboração entre seus docentes, discentes e parceiros externos. Esse tipo de estudo possibilita identificar tendências de pesquisa, áreas com maior interação científica e o impacto da produção acadêmica do programa ao longo do tempo. Além disso, ao mapear essas redes, pode-se avaliar o alcance e a inserção do PPGEEC no cenário nacional e internacional, bem como subsidiar ações que promovam uma maior integração entre pesquisadores e fortaleçam a excelência acadêmica do programa.
 
-### Evoluçao das redes de coautoria do PPGEEC ao longo dos anos
+### Dados usados na análise
 
-As análises são baseadas em vários arquivos no formato gexf. Cada um deles contém uma rede de coautoria do PPGEEC para um período específico. São eles:
+As análises são baseadas em vários arquivos no formato gexf. Cada um deles contém uma rede de coautoria do PPGEEC para um período específico. Os nós são os pesquisadores e as arestas indicam pesquisadores que são coautores em publicações científicas. Os grafos são os seguintes:
 * 16 grafos anuais (individualmente para cada ano de 2010 a 2025);
 * 4 grafos correspondentes aos períodos das avaliações quadrienais da Fundação Coordenação para o Aperfeiçoamento do Pessoal do Nível Superior - CAPES (2010-2012, 2013-2016, 2017-2020 e 2021 a 2024);
 * 1 grafo geral (com todos os dados de 2010 a 2025).
+
+### Evoluçao das redes de coautoria do PPGEEC ao longo dos anos
 
 Uma primeira análise feita sobre os dados das redes de coautoria do PPGEEC é a sua evolução ao longo do tempo de acordo com algumas métricas. Foram escolhidas as seguintes para fundamentar a análise:
 * Densidade;
@@ -34,16 +36,18 @@ O gráfico a seguir, do tipo *ridgeline*, traz uma estimativa das funções de d
 
 ### Redes de coautoria do PPGEEC nos períodos referentes às avaliações quadrienais da CAPES
 
-#### Rede de coautoia do PPGEEC no período 2010-2012
+A seguir temos a análise do compotamento das redes do coautoria do PPGEEC durante os períodos das avaliações quadrienais da CAPES. A seguir temos as visualizaçoes dos gafos referentes a esses períodos. Em cada caso, os cinco nós de maior grau são representados por bolas verdes e têm  
+
+#### Rede de coautoria do PPGEEC no período 2010-2012
 ![](fig/quad_2010_2012.png)
 
-#### Rede de coautoia do PPGEEC no período 2013-2016
+#### Rede de coautoria do PPGEEC no período 2013-2016
 ![](fig/quad_2013_2016.png)
 
-#### Rede de coautoia do PPGEEC no período 2017-2020
+#### Rede de coautoria do PPGEEC no período 2017-2020
 ![](fig/quad_2017_2020.png)
 
-#### Rede de coautoia do PPGEEC no período 2021-2024
+#### Rede de coautoria do PPGEEC no período 2021-2024
 ![](fig/quad_2021_2024.png)
 
 ### Um subgrafo com vértices de alto grau e rede ego do vértice de maior grau

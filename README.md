@@ -24,6 +24,10 @@ Neste projeto é feita uma análise das redes de coautoria no âmbito do Program
 
 ### Um subgrafo com vértices de alto grau e rede ego do vértice de maior grau
 
+![](fig/geral.png)
+![](fig/subgrafo.png)
+![](fig/valentim_ego_net.png)
+![](fig/valentim_ego_subnet.png)
 
 Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](). Há também um [vídeo explicativo]() sobre o trabalho realizado.
 

@@ -17,6 +17,10 @@ Neste projeto é feita uma análise das redes de coautoria no âmbito do Program
 
 ### Redes de coautoria do PPGEEC nos períodos referentes às avaliações quadrienais da CAPES
 
+![](fig/quad_2010_2012.png)
+![](fig/quad_2013_2016.png)
+![](fig/quad_2017_2020.png)
+![](fig/quad_2021_2024.png)
 
 ### Um subgrafo com vértices de alto grau e rede ego do vértice de maior grau
 

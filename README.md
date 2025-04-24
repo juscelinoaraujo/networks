@@ -12,12 +12,16 @@ Neste projeto é feita uma análise das redes de coautoria no âmbito do Program
 
 ### Evoluçao das redes de coautoria do PPGEEC ao longo dos anos
 
-Uma pimeia análise feita sobre os dados das redes de coautoria do PPGEEC é a sua evolução ao longo do tempo de acordo com algumas métricas. Foram escolhidas as seguintes para fundamentar a análise:
+
+
+Uma primeira análise feita sobre os dados das redes de coautoria do PPGEEC é a sua evolução ao longo do tempo de acordo com algumas métricas. Foram escolhidas as seguintes para fundamentar a análise:
 * Densidade;
 * Número de vétices;
 * Número de arestas;
 * Número médio de vizinhos;
 * Distribuição do número de vizinhos.
+
+O gráfico a seguir mostra a evolução comparada, mediante séries temporais, entre as métricas de densidade, número de arestas, número de vértices e número médio de arestas. Os valores foram normalizados entre 0 e 1 para possibilitar uma comparação mais adequada.
 
 ![](fig/evolucao.png)
 

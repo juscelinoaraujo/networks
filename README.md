@@ -34,9 +34,16 @@ O gráfico a seguir, do tipo *ridgeline*, traz uma estimativa das funções de d
 
 ### Redes de coautoria do PPGEEC nos períodos referentes às avaliações quadrienais da CAPES
 
+#### Rede de coautoia do PPGEEC no período 2010-2012
 ![](fig/quad_2010_2012.png)
+
+#### Rede de coautoia do PPGEEC no período 2013-2016
 ![](fig/quad_2013_2016.png)
+
+#### Rede de coautoia do PPGEEC no período 2017-2020
 ![](fig/quad_2017_2020.png)
+
+#### Rede de coautoia do PPGEEC no período 2021-2024
 ![](fig/quad_2021_2024.png)
 
 ### Um subgrafo com vértices de alto grau e rede ego do vértice de maior grau

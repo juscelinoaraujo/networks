@@ -59,10 +59,15 @@ Por fim, a análise concentrou-se em analisar globalmente o período completo co
 
 Muitos vértices estão sobrepostos e, a julgar pelo tamanho de algumas das bolas em verde, há uma discrepância muito grande entre os pesquisadores com mais e com menos colaborações. Isso está de acordo com o fato de que os pesquisadores que se destacavam em termos de coautorias nos períodos de avaliação quadrienal também estão destacados nesse novo grafo. Assim, entende-se que esses pesquisadores foram adquirindo mais e mais coautores ao longo do tempo. Por exemplo, com novos orientandos do PPGEEC.
 
-Uma pergunta natural que surge é o que acontece quando se observa um subgrafo contendo apenas os vértices com uma determinada quantidade de vizinhos. Decidiu-se por construir um subgrafo contendo apenas aqueles nnós cuja quantidade de vizinhos fosse ao menos um desvio-padrão acima da média. Portanto, foram selecionados apenas os vértices com 69 vizinhos ou mais. O subgrafo gerado é mostrado a seguir.
-
+Uma pergunta natural que surge é o que acontece quando se observa um subgrafo contendo apenas os vértices com uma determinada quantidade de vizinhos. Decidiu-se por construir um subgrafo contendo apenas aqueles nnós cuja quantidade de vizinhos fosse ao menos um desvio-padrão acima da média. Portanto, foram selecionados apenas os vértices com 60 vizinhos ou mais. O subgrafo gerado é mostrado a seguir.
 ![](fig/subgrafo.png)
+
+O grafo possui bem menos vértices e, além disso, a diferença de tamanho entre as bolas não é tão grande como antes. Isso significa que existem muitos pesquisadores com poucos coautores em colaboração com os que possuem muitos coautores. Também é possível ver mais facilmente as arestas vermelhas. O que é natural, uma vez que se espera que os professores permanentes do PPGEEC estejam entre aqueles com mais coautores e que colaborem entre si. Com relação à densidade, a do subgrafo é de aproximadamente 0,23, enquanto o anterior tinha densidade aproximada de 0,0087. Tal diferença é explicada pela retirada de muitos vértices com poucas arestas. Isso faz a densidade do subgrafo ser bem maior.
+
+O vértice com maior número de vizinhos no grafo geral corresponde ao professor Ricardo Alexsandro de Medeiros Valentim, com 401 coautores. A seguir é exibida a rede ego para esse vértice. É possível notar que existem vários grupos com poucos vértices de tamanho pequeno. Possivelmente eles se referem a grupos de pesquisa de temas muito específicos que não colaboram muito com outros grupos que trabalham junto ao professor Ricardo Valentim. 
 ![](fig/valentim_ego_net.png)
+
+Por fim, é analisada a rede ego referente ao nó correspondente ao professor Ricardo Valentim no subgrafo gerado anteriormente. É possível notar três grupos principais de coautores. Além disso, os quatro principais coautores desse professor na rede ego do grafo geral são os mesmos que se destacam na rede ego do subgrafo, indicando que esses pesquisadores têm conseguido manter muitas colaborações com outros pesquisadores que, por sua vez, também possuem vários coautores.
 ![](fig/valentim_ego_subnet.png)
 
 Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](). Há também um [vídeo explicativo]() sobre o trabalho realizado.

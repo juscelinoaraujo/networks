@@ -70,6 +70,6 @@ O vértice com maior número de vizinhos no grafo geral corresponde ao professor
 Por fim, é analisada a rede ego referente ao nó correspondente ao professor Ricardo Valentim no subgrafo gerado anteriormente. É possível notar três grupos principais de coautores. Além disso, os quatro principais coautores desse professor na rede ego do grafo geral são os mesmos que se destacam na rede ego do subgrafo, indicando que esses pesquisadores têm conseguido manter muitas colaborações com outros pesquisadores que, por sua vez, também possuem vários coautores.
 ![](fig/valentim_ego_subnet.png)
 
-Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](). Há também um [vídeo explicativo]() sobre o trabalho realizado.
+Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U1P1/U1P1.ipynb). Há também um [vídeo explicativo]() sobre o trabalho realizado.
 
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

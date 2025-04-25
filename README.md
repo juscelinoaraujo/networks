@@ -38,12 +38,7 @@ O gráfico a seguir, do tipo *ridgeline*, traz uma estimativa das funções de d
 
 A seguir temos a análise do compotamento das redes do coautoria do PPGEEC durante os períodos das avaliações quadrienais da CAPES. Logo abaixo temos as visualizaçoes dos gafos referentes a esses períodos. Em cada caso, os cinco nós de maior grau são representados por bolas verdes e têm seus nomes destacados. Os demais são representados po bolas azuis. As arestas em geral são representadas por linhas na cor cinza. A exceção acontece quando a aresta liga dois pofessores permanentes do PPGEEC. Nesse caso a aresta é pintada de vermelho. O tamanho dos vétices é popocional ao númeo de vizinhos. Já a espessura das arestas é proporcional ao número de citações de trabalhos em que os dois pesquisadores são coautores.
 
-Da observação dos grafos é possível perceber o aumento dos vértices, ao passo em que os cinco pesquisadores com mais colaborações são praticamente os mesmos nos quatro casos. São eles os professores:
-* Luiz Marcos Gonçalves;
-* Ricardo Alexsandro Valentim;
-* Ivanovitch Medeiros Dantas da Silva;
-* Andrés Ortiz Salazar;
-* Luiz Affonso Henderson
+Da observação dos grafos é possível perceber o aumento dos vértices, ao passo em que os cinco pesquisadores com mais colaborações não variam muito. Por exemplo, os professores Luiz Marcos Garcia Gonçalves e Marcelo Sampaio Alencar aparecem destacados em todos os períodos. Já o professor Marcelo Augusto Costa Fernandes aparece em todos desde o quadriênio 2013-2016.
 
 #### Rede de coautoria do PPGEEC no período 2010-2012
 ![](fig/quad_2010_2012.png)

@@ -38,7 +38,7 @@ O gráfico a seguir, do tipo *ridgeline*, traz uma estimativa das funções de d
 
 A seguir temos a análise do compotamento das redes do coautoria do PPGEEC durante os períodos das avaliações quadrienais da CAPES. Logo abaixo temos as visualizaçoes dos gafos referentes a esses períodos. Em cada caso, os cinco nós de maior grau são representados por bolas verdes e têm seus nomes destacados. Os demais são representados po bolas azuis. As arestas em geral são representadas por linhas na cor cinza. A exceção acontece quando a aresta liga dois pofessores permanentes do PPGEEC. Nesse caso a aresta é pintada de vermelho. O tamanho dos vétices é popocional ao númeo de vizinhos. Já a espessura das arestas é proporcional ao número de citações de trabalhos em que os dois pesquisadores são coautores.
 
-Da observação dos grafos é possível perceber o aumento dos vértices, ao passo em que os cinco pesquisadores com mais colaborações não variam muito. Por exemplo, os professores Luiz Marcos Garcia Gonçalves e Marcelo Sampaio Alencar aparecem destacados em todos os períodos. Já o professor Marcelo Augusto Costa Fernandes aparece em todos desde o quadriênio 2013-2016.
+Da observação dos grafos é possível perceber o aumento dos vértices, ao passo em que os cinco pesquisadores com mais colaborações não variam muito. Por exemplo, os professores Luiz Marcos Garcia Gonçalves e Marcelo Sampaio de Alencar aparecem destacados em todos os períodos. Já o professor Marcelo Augusto Costa Fernandes aparece em todos desde o quadriênio 2013-2016.
 
 #### Rede de coautoria do PPGEEC no período 2010-2012
 ![](fig/quad_2010_2012.png)
@@ -54,7 +54,13 @@ Da observação dos grafos é possível perceber o aumento dos vértices, ao pas
 
 ### Um subgrafo com vértices de alto grau e rede ego do vértice de maior grau
 
+Por fim, a análise concentrou-se em analisar globalmente o período completo compreendido pelos dados: de 2010 até 2025. Assim, inicialmente é exibido a rede de coautoria completa, aos moldes das anteriores.
 ![](fig/geral.png)
+
+Muitos vértices estão sobrepostos e, a julgar pelo tamanho de algumas das bolas em verde, há uma discrepância muito grande entre os pesquisadores com mais e com menos colaborações. Isso está de acordo com o fato de que os pesquisadores que se destacavam em termos de coautorias nos períodos de avaliação quadrienal também estão destacados nesse novo grafo. Assim, entende-se que esses pesquisadores foram adquirindo mais e mais coautores ao longo do tempo. Por exemplo, com novos orientandos do PPGEEC.
+
+Uma pergunta natural que surge é o que acontece quando se observa um subgrafo contendo apenas os vértices com uma determinada quantidade de vizinhos. Decidiu-se por construir um subgrafo contendo apenas aqueles nnós cuja quantidade de vizinhos fosse ao menos um desvio-padrão acima da média. Portanto, foram selecionados apenas os vértices com 69 vizinhos ou mais. O subgrafo gerado é mostrado a seguir.
+
 ![](fig/subgrafo.png)
 ![](fig/valentim_ego_net.png)
 ![](fig/valentim_ego_subnet.png)

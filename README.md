@@ -74,11 +74,11 @@ Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook
 
 ## Projeto 2 - Análise de Assortatividade em Grafo de Ingredientes da Culinária Brasileira
 
-![](U2T2/fig/grafo_ingredientes.png)
+![](U1T2/fig/grafo_ingredientes.png)
 
 O grafo a seguir é do tipo circular, agrupando os ingredientes ao longo da circunferência Aqui é possível mais claramente diferenciar as arestas que unem ingredientes de um mesmo tipo ou de tipos distintos.
 
-![](U1T2/fig/assortatividade.png)
+![](U1T2/fig/assortativity.png)
 
 A partir da análise visual e do fato de que o coeficiente de assortatividade é de aproximadamente 0,093, conclui-se a partir da amostra de receitas utilizada que a combinação dos ingredientes se dá de forma aleatória. No grafo no layout de spring não é possível ver aglomerados distintos de ingredientes. E no grafo circular é possível ver tanto arestas unindo ingredientes de mesmo tipo como de tipos distintos.
 

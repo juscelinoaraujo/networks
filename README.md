@@ -70,6 +70,18 @@ O vértice com maior número de vizinhos no grafo geral corresponde ao professor
 Por fim, é analisada a rede ego referente ao nó correspondente ao professor Ricardo Valentim no subgrafo gerado anteriormente. É possível notar três grupos principais de coautores. Além disso, os quatro principais coautores desse professor na rede ego do grafo geral são os mesmos que se destacam na rede ego do subgrafo, indicando que esses pesquisadores têm conseguido manter muitas colaborações com outros pesquisadores que, por sua vez, também possuem vários coautores.
 ![](fig/valentim_ego_subnet.png)
 
-Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U1P1/U1P1.ipynb). Há também um [vídeo explicativo](https://youtu.be/sgsESlhtQgI) sobre o trabalho realizado.
+Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U1P1/U1P1.ipynb) e nos demais arquivos dessa [pasta](U1P1). Há também um [vídeo explicativo](https://youtu.be/sgsESlhtQgI) sobre o trabalho realizado.
+
+## Projeto 2 - Análise de Assortatividade em Grafo de Ingredientes da Culinária Brasileira
+
+![](U2T2/fig/grafo_ingredientes.png)
+
+O grafo a seguir é do tipo circular, agrupando os ingredientes ao longo da circunferência Aqui é possível mais claramente diferenciar as arestas que unem ingredientes de um mesmo tipo ou de tipos distintos.
+
+![](U1T2/fig/assortatividade.png)
+
+A partir da análise visual e do fato de que o coeficiente de assortatividade é de aproximadamente 0,093, conclui-se a partir da amostra de receitas utilizada que a combinação dos ingredientes se dá de forma aleatória. No grafo no layout de spring não é possível ver aglomerados distintos de ingredientes. E no grafo circular é possível ver tanto arestas unindo ingredientes de mesmo tipo como de tipos distintos.
+
+Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U1T2/ingredientes.ipynb) e nos demais arquivos dessa [pasta](U1T2). Há também um [vídeo explicativo](https://youtu.be/sgsESlhtQgI) sobre o trabalho realizado.
 
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

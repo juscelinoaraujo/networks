@@ -74,9 +74,28 @@ Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook
 
 ## Projeto 2 - Análise de Assortatividade em Grafo de Ingredientes da Culinária Brasileira
 
+Este trabalho consiste na análise da assortatividade de uma rede de ingredientes de pratos da culinária brasileira típicos das regiões Nordeste e Norte. Seu objetivo é compreender como o fato de dois ingredientes pertencerem a um mesmo tipo (carboidrato, proteína, fruta etc.) influencia no fato de eles aparecerem juntos em uma mesma receita. A amostra de receitas foi extraída de um livro publicado pelo Ministério do Meio Ambiente em 2019, contendo receitas típicas das cinco regiões brasileiras. O livro de receitas pode ser abtido [neste link](https://redesans.com.br/rede/wp-content/uploads/2019/08/Livro-de-Receitas-03-07-2019.pdf). Utilizou-se um modelo de linguagem para extrair receitas desse livro referente as regiões Nordeste e Norte. Apesar de serem extraídas manualmente as 94 páginas correspondentes a essasreceitas, a partir do [prompt](U1T2/llm_info.md) utilizado só foi possível extrair 54 receitas para a montagem de um arquivo csv com as seguintes características:
+* Uma linha para cada receita;
+* Primeira coluna com o nome da receita;
+* Segunda coluna com a lista de ingredientes;
+* Terceira coluna com o tipo do ingrediente, podendo ser proteína, carboidrato, vegetal, fruta, laticínio, gordura, condimento ou outro.
+
+  O modelo de linguagem ntroduziu o tipo 'bebida', que foi mantido. A partir desse csv, foi construído um grafo em que os nós são os vértices e dois nós estão unidos por uma arestas se aparecem juntos em uma receita. Abaixo seguem algumas visualizações desse grafo.
+
+O grafo a seguir possui layout *spring* e cada ingrediente está representado em uma cor referente ao tipo:
+* vegetal: verde;
+* fruta: vermelho;
+* laticínio: amarelo;
+* condimento: rosa;
+* proteína: roxo;
+* carboidrato: azul;
+* gordura: laranja;
+* bebida: ciano;
+* outro: cinza.
+
 ![](U1T2/fig/grafo_ingredientes.png)
 
-O grafo a seguir é do tipo circular, agrupando os ingredientes ao longo da circunferência Aqui é possível mais claramente diferenciar as arestas que unem ingredientes de um mesmo tipo ou de tipos distintos.
+O grafo a seguir é do tipo circular, agrupando os ingredientes ao longo da circunferência Aqui é possível mais claramente diferenciar as arestas que unem ingredientes de um mesmo tipo ou de tipos distintos. Vale salientar que as cores aqui não seguem o mesmo padrão do gráfico anterior. 
 
 ![](U1T2/fig/assortativity.png)
 

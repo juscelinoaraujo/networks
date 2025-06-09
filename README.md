@@ -122,6 +122,12 @@ Uma primeira forma de dividir os pontos de coleta entre os colaboradores é simp
 * Colaborador 9: bairros Candelária, Lagoa Nova e Nova Descoberta;
 * Colaborador 10: zona Leste (bairros Alecrim, Tirol, Ribeira, Areia Preta e Santos Reis).
 
+### Construção das rotas
+
+### Avaliação das rotas
+
+Cada uma das estratégias é avaliada segundo um desses três critérios: distância total percorrida (comprimento em metros), tempo total gasto (em segundos) e emissão de CO2 (em gramas por litro). Em cada caso, são somados os resultados da rota de cada colaborador. Na tabela a seguir temos a avaliação de cada uma das estratégias.
+
 |Estratégia \ Métrica|Comprimento \(m\)|Tempo \(s\)|CO2 \(g/L\)|
 |---|---|---|---|
 |Aleatória|984640\.4855268182|78640\.54250408731|319178\.6340446898|
@@ -132,10 +138,14 @@ Uma primeira forma de dividir os pontos de coleta entre os colaboradores é simp
 |A* (tempo)|419209\.17341668124|29918\.822116970558|135639\.8562440728|
 |A* (CO2)|406232\.3699919473|34874\.13324147001|123727\.28601796925|
 
+### Visualização das rotas
+
+As rotas obtidas na estratégia escolhida são exibidas abaixo. Na imagem, cada rota está representada por uma cor distinta.
 ![](U2T2/fig/rotas.png)
 
+A título de comparação, abaixo são exibidas as rotas obtidas na abordagem aleatória.
 ![](U2T2/fig/rotas_aleatorias.png)
 
-Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U2T2/U2T2.ipynb) e nos demais arquivos dessa [pasta](U2T2). Há também um [vídeo explicativo](https://youtu.be/g4J3gcXQnbo) sobre o trabalho realizado.
+Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U2T2/U2T2.ipynb). Há também um [vídeo explicativo](https://youtu.be/g4J3gcXQnbo) sobre o trabalho realizado.
 
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

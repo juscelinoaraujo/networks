@@ -138,6 +138,8 @@ Cada uma das estratégias é avaliada segundo um desses três critérios: distâ
 |A* (tempo)|419209\.17341668124|29918\.822116970558|135639\.8562440728|
 |A* (CO2)|406232\.3699919473|34874\.13324147001|123727\.28601796925|
 
+Com base na tabela acima, é possível notar que à exceção da abordagem aleatória, todas as estratégias tiveram desempenho semelhante em termos de distância percorrida e emissão de CO2. Se usarmos o critério da diferença relativa, não há discrepâncias maiores que 5% nos resultados avaliados. Já com relação ao tempo total gasto, é possível notar uma diferença maior, com desempenho melhor nas abordagens em que o tempo gasto foi usado como peso das arestas. Além disso, os resultados foram idênticos para os algoritmos de Dijkstra e A*. Sendo assim, a abordagem escolhida é a que constrói as rotas usando o algoritmo de Dijkstra utilizando o tempo gasto como peso das arestas.
+
 ### Visualização das rotas
 
 As rotas obtidas na estratégia escolhida são exibidas abaixo. Na imagem, cada rota está representada por uma cor distinta.

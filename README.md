@@ -103,4 +103,16 @@ A partir da análise visual e do fato de que o coeficiente de assortatividade é
 
 Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U1T2/ingredientes.ipynb) e nos demais arquivos dessa [pasta](U1T2). Há também um [vídeo explicativo](https://youtu.be/g4J3gcXQnbo) sobre o trabalho realizado.
 
+## Projeto 3 - Elaboração de estratégia de rotas usando Dijkstra e A*
+
+|index|Comprimento \(m\)|Tempo \(s\)|CO2 \(g/L\)|
+|---|---|---|---|
+|0|984640\.4855268182|78640\.54250408731|319178\.6340446898|
+|1|398911\.5808527714|33188\.60923305644|125995\.21112948703|
+|2|419209\.17341668124|29918\.822116970558|135639\.8562440728|
+|3|406232\.3699919473|34874\.13324147001|123727\.28601796925|
+|4|398911\.5808527714|33188\.60923305644|125995\.21112948703|
+|5|419209\.17341668124|29918\.822116970558|135639\.8562440728|
+|6|406232\.3699919473|34874\.13324147001|123727\.28601796925|
+
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

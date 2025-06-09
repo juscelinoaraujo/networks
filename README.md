@@ -124,6 +124,8 @@ Uma primeira forma de dividir os pontos de coleta entre os colaboradores é simp
 
 ### Construção das rotas
 
+Foram utilizadas sete estratégias de construção da rotas dos colaboradores. A primeira é a abordagem aleatória, mencionada na seção anterior, em que cada colaborador recebeu uma quantidade de pontos de forma aleatória. Aqui, os pontos -- para um mesmo colaborador -- são percorridos em ordem aleatória, seguindo a menor distância entre dois deles. As outras seis estratégias representam os usos dos algoritmos de Dijkstra e A* quando se ponderam as arestas pelo comprimento, tempo gasto ou emissão de CO2. 
+
 ### Avaliação das rotas
 
 Cada uma das estratégias é avaliada segundo um desses três critérios: distância total percorrida (comprimento em metros), tempo total gasto (em segundos) e emissão de CO2 (em gramas por litro). Em cada caso, são somados os resultados da rota de cada colaborador. Na tabela a seguir temos a avaliação de cada uma das estratégias.

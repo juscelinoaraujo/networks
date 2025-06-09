@@ -120,7 +120,7 @@ Uma primeira forma de dividir os pontos de coleta entre os colaboradores é simp
 * Colaborador 9: bairros Candelária, Lagoa Nova e Nova Descoberta;
 * Colaborador 10: zona Leste (bairros Alecrim, Tirol, Ribeira, Areia Preta e Santos Reis).
 
-|index|Comprimento \(m\)|Tempo \(s\)|CO2 \(g/L\)|
+|Estratégia \ Métrica|Comprimento \(m\)|Tempo \(s\)|CO2 \(g/L\)|
 |---|---|---|---|
 |Aleatória|984640\.4855268182|78640\.54250408731|319178\.6340446898|
 |Dijkstra (comprimento)|398911\.5808527714|33188\.60923305644|125995\.21112948703|

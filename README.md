@@ -105,6 +105,21 @@ Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook
 
 ## Projeto 3 - Elaboração de estratégia de rotas usando Dijkstra e A*
 
+### Distribuição dos pontos de coleta seguindo lógica espacial
+
+Nessa segunda divisão é utilizado um critério de distribuição espacial dos pontos de coleta. Busca-se deixar cada colaborador com aproximadamente 6 pontos de coleta, podendo variar de 4 a 8. Todos os pontos de coleta de um bairro estão com um mesmo colaborador. Quando não há muitos pontos em um bairro, um colaborador pode ficar com dois ou mais bairros, quase sempre da mesma zona -- à exceção do colaborador que fica com os bairros Planalto (Oeste) e Pitimbu (Sul). Excepcionalmente, um colaborador fica com todos os bairros da zona Leste.
+
+* Colaborador 1: bairro Nossa Senhora da Apresentação;
+* Colaborador 2: bairro Lagoa Azul;
+* Colaborador 3: bairros Igapó e Potengi;
+* Colaborador 4: bairros Pajuçara e Redinha;
+* Colaborador 5: bairro Guarapes;
+* Colaborador 6: bairros Nazaré, Quintas e Bom Pastor;
+* Colaborador 7: bairros Felipe Camarão e Cidade Nova;
+* Colaborador 8: bairros Planalto e Pitimbu;
+* Colaborador 9: bairros Candelária, Lagoa Nova e Nova Descoberta;
+* Colaborador 10: zona Leste (bairros Alecrim, Tirol, Ribeira, Areia Preta e Santos Reis).
+
 |index|Comprimento \(m\)|Tempo \(s\)|CO2 \(g/L\)|
 |---|---|---|---|
 |0|984640\.4855268182|78640\.54250408731|319178\.6340446898|

@@ -105,6 +105,8 @@ Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook
 
 ## Projeto 3 - Elaboração de estratégia de rotas usando Dijkstra e A*
 
+Este projeto consiste em uma tentativa de encontrar uma maneira eficiente de fazer com que dez colaboradores saiam do Centro de Controle de Zoonoses de Natal, percorram ao todo sessenta e cinco pontos de coleta e retornem ao ponto inicial. Para isso, serão avaliadas diferentes abordagens envolvendo os algoritmos de Dijkstra e A*. Os pontos de coleta estão disponíveis nesta [planilha](U2T2/centroid_filtered.csv).
+
 ### Distribuição dos pontos de coleta seguindo lógica espacial
 
 Uma primeira forma de dividir os pontos de coleta entre os colaboradores é simplesmente sorteá-los de forma o mais igualitária possível. E a partir de uma sequência de pontos, tentar percorrê-los usando a menor distância possível, partindo da central de coletas e a ela retornando ao final. Em uma segunda divisão é utilizado um critério de distribuição espacial dos pontos de coleta. Busca-se deixar cada colaborador com aproximadamente 6 pontos de coleta, podendo variar de 4 a 8. Todos os pontos de coleta de um bairro estão com um mesmo colaborador. Quando não há muitos pontos em um bairro, um colaborador pode ficar com dois ou mais bairros, quase sempre da mesma zona -- à exceção do colaborador que fica com os bairros Planalto (Oeste) e Pitimbu (Sul). Excepcionalmente, um colaborador fica com todos os bairros da zona Leste.

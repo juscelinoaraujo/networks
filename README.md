@@ -101,7 +101,7 @@ O grafo a seguir é do tipo circular, agrupando os ingredientes ao longo da circ
 
 A partir da análise visual e do fato de que o coeficiente de assortatividade é de aproximadamente 0,093, conclui-se a partir da amostra de receitas utilizada que a combinação dos ingredientes se dá de forma aleatória. No grafo no layout de spring não é possível ver aglomerados distintos de ingredientes. E no grafo circular é possível ver tanto arestas unindo ingredientes de mesmo tipo como de tipos distintos.
 
-Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U1T2/ingredientes.ipynb) e nos demais arquivos dessa [pasta](U1T2). Há também um [vídeo explicativo](https://youtu.be/g4J3gcXQnbo) sobre o trabalho realizado.
+Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U1T2/ingredientes.ipynb) e nos demais arquivos dessa [pasta](U1T2). Há também um [vídeo explicativo](https://www.loom.com/share/97718dae3536435e86644450bbfb69b0?sid=9f8a3ab3-4dc3-4234-b88b-2f83fe55f895) sobre o trabalho realizado.
 
 ## Projeto 3 - Elaboração de estratégia de rotas usando Dijkstra e A*
 

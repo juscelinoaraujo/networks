@@ -105,7 +105,7 @@ Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook
 
 ## Projeto 3 - Elaboração de estratégia de rotas usando Dijkstra e A*
 
-Este projeto consiste em uma tentativa de encontrar uma maneira eficiente de fazer com que dez colaboradores saiam do Centro de Controle de Zoonoses de Natal, percorram ao todo sessenta e cinco pontos de coleta e retornem ao ponto inicial. Para isso, serão avaliadas diferentes abordagens envolvendo os algoritmos de Dijkstra e A*. Os pontos de coleta estão disponíveis nesta [planilha](U2T2/centroid_filtered.csv).
+Este projeto consiste em uma tentativa de encontrar uma maneira eficiente de fazer com que dez colaboradores saiam do Centro de Controle de Zoonoses de Natal, percorram ao todo sessenta e cinco pontos de coleta e retornem ao ponto inicial. Para isso, serão avaliadas diferentes abordagens envolvendo os algoritmos de Dijkstra e A*. Os pontos de coleta estão disponíveis nesta [planilha](U2T2/centroid_filtered.csv). Para a aplicação dos algoritmos mencionados, as vias de Natal foram mapeadas em um grafo construído a partir das bibliotecas NetworkX e OSMnx.
 
 ### Distribuição dos pontos de coleta seguindo lógica espacial
 

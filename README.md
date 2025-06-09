@@ -115,4 +115,8 @@ Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook
 |5|419209\.17341668124|29918\.822116970558|135639\.8562440728|
 |6|406232\.3699919473|34874\.13324147001|123727\.28601796925|
 
+![](U2T2/fig/rotas.png)
+
+Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U2T2/U2T2.ipynb) e nos demais arquivos dessa [pasta](U2T2). Há também um [vídeo explicativo](https://youtu.be/g4J3gcXQnbo) sobre o trabalho realizado.
+
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

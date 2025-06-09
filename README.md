@@ -107,7 +107,7 @@ Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook
 
 ### Distribuição dos pontos de coleta seguindo lógica espacial
 
-Nessa segunda divisão é utilizado um critério de distribuição espacial dos pontos de coleta. Busca-se deixar cada colaborador com aproximadamente 6 pontos de coleta, podendo variar de 4 a 8. Todos os pontos de coleta de um bairro estão com um mesmo colaborador. Quando não há muitos pontos em um bairro, um colaborador pode ficar com dois ou mais bairros, quase sempre da mesma zona -- à exceção do colaborador que fica com os bairros Planalto (Oeste) e Pitimbu (Sul). Excepcionalmente, um colaborador fica com todos os bairros da zona Leste.
+Uma primeira forma de dividir os pontos de coleta entre os colaboradores é simplesmente sorteá-los de forma o mais igualitária possível. E a partir de uma sequência de pontos, tentar percorrê-los usando a menor distância possível, partindo da central de coletas e a ela retornando ao final. Em uma segunda divisão é utilizado um critério de distribuição espacial dos pontos de coleta. Busca-se deixar cada colaborador com aproximadamente 6 pontos de coleta, podendo variar de 4 a 8. Todos os pontos de coleta de um bairro estão com um mesmo colaborador. Quando não há muitos pontos em um bairro, um colaborador pode ficar com dois ou mais bairros, quase sempre da mesma zona -- à exceção do colaborador que fica com os bairros Planalto (Oeste) e Pitimbu (Sul). Excepcionalmente, um colaborador fica com todos os bairros da zona Leste.
 
 * Colaborador 1: bairro Nossa Senhora da Apresentação;
 * Colaborador 2: bairro Lagoa Azul;
@@ -122,13 +122,13 @@ Nessa segunda divisão é utilizado um critério de distribuição espacial dos 
 
 |index|Comprimento \(m\)|Tempo \(s\)|CO2 \(g/L\)|
 |---|---|---|---|
-|0|984640\.4855268182|78640\.54250408731|319178\.6340446898|
-|1|398911\.5808527714|33188\.60923305644|125995\.21112948703|
-|2|419209\.17341668124|29918\.822116970558|135639\.8562440728|
-|3|406232\.3699919473|34874\.13324147001|123727\.28601796925|
-|4|398911\.5808527714|33188\.60923305644|125995\.21112948703|
-|5|419209\.17341668124|29918\.822116970558|135639\.8562440728|
-|6|406232\.3699919473|34874\.13324147001|123727\.28601796925|
+|Aleatória|984640\.4855268182|78640\.54250408731|319178\.6340446898|
+|Dijkstra (comprimento)|398911\.5808527714|33188\.60923305644|125995\.21112948703|
+|Dijkstra (tempo)|419209\.17341668124|29918\.822116970558|135639\.8562440728|
+|Dijkstra (CO2)|406232\.3699919473|34874\.13324147001|123727\.28601796925|
+|A* (comprimento)|398911\.5808527714|33188\.60923305644|125995\.21112948703|
+|A* (tempo)|419209\.17341668124|29918\.822116970558|135639\.8562440728|
+|A* (CO2)|406232\.3699919473|34874\.13324147001|123727\.28601796925|
 
 ![](U2T2/fig/rotas.png)
 

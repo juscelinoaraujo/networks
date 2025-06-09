@@ -132,6 +132,8 @@ Uma primeira forma de dividir os pontos de coleta entre os colaboradores é simp
 
 ![](U2T2/fig/rotas.png)
 
+![](U2T2/fig/rotas_aleatorias.png)
+
 Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U2T2/U2T2.ipynb) e nos demais arquivos dessa [pasta](U2T2). Há também um [vídeo explicativo](https://youtu.be/g4J3gcXQnbo) sobre o trabalho realizado.
 
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

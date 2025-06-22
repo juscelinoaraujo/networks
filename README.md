@@ -152,4 +152,6 @@ A título de comparação, abaixo são exibidas as rotas obtidas na abordagem al
 
 Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook](U2T2/U2T2.ipynb). Há também um [vídeo explicativo](https://www.loom.com/share/97718dae3536435e86644450bbfb69b0?sid=9f8a3ab3-4dc3-4234-b88b-2f83fe55f895) sobre o trabalho realizado.
 
+## Projeto 4 - Árvore Geradora Mínima entre hospitais de Natal: aplicação do algoritmo de Kruskal
+
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

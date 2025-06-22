@@ -156,7 +156,11 @@ Maiores detalhes sobre as análises feitas podem ser encontrados neste [notebook
 
 Este notebook apresenta uma solução para criar uma árvore geradora mínima (MST, do inglês *Minimum Spanning Tree*) entre hospitais da cidade de Natal, RN, Brasil. Para tanto, faz-se uso do algoritmo de Kruskal e da biblioteca OSMnx, que permite trabalhar com grafos de redes de ruas do OpenStreetMap. A solução apresentada aqui foi originalmente desenvolvida pelo professor Ivanovitch Silva, do Departamento de Engenharia de Computação e Automação (DCA) da Universidade Federal do Rio Grande do Norte (UFRN), e pode ser encontrada neste [repositório](https://github.com/ivanovitchm/datastructure/tree/main), na seção "Week 12".
 
-A seguir temos a visualização da MST encontrada.
+A seguir temos a visualização dos pontos de interesse (hospitais) no grafo da cidade de Natal.
+
+![](U2T3/fig/hospitais-natal.png)
+
+A seguir temos a visualização da MST encontrada. As arestas aparecem em vermelho.
 
 ![](U2T3/fig/mst.png)
 

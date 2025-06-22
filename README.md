@@ -160,7 +160,7 @@ Inicialmente usa-se a biblioteca OSMnx para obter a rede de ruas da cidade de Na
 
 ![](U2T3/fig/hospitais-natal.png)
 
-A seguir temos a visualização da MST encontrada. As arestas aparecem em vermelho.
+Constrói-se então um grafo completo, ou seja, com todos os nós diretamente interligados por arestas, cujos nós são referentes aos hospitais. A partir desse novo grafo, usa-se a biblioteca NetworkX para obter a MST procurada. A seguir temos a visualização dessa MST. As arestas aparecem em vermelho.
 
 ![](U2T3/fig/mst.png)
 

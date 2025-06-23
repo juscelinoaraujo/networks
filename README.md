@@ -164,7 +164,7 @@ Constrói-se então um grafo completo, ou seja, com todos os nós diretamente in
 
 * Se a aresta conecta duas árvores distintas de F, junte essas duas árvores em uma única a partir da inclusão dessa aresta;
 * Senão, passe à aresta seguinte.
-* 
+
 Esse procedimento é repetido até F conter uma única árvore com N-1 arestas. Essa árvore será a MST de G. Caso esgotem-se as arestas de G e não se chegue a uma única árvore em F, então é impossível criar a MST para esse grafo.
 
 A seguir temos a visualização da MST encontrada. As arestas aparecem em vermelho.

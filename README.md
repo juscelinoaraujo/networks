@@ -160,7 +160,14 @@ Inicialmente usa-se a biblioteca OSMnx para obter a rede de ruas da cidade de Na
 
 ![](U2T3/fig/hospitais-natal.png)
 
-Constrói-se então um grafo completo, ou seja, com todos os nós diretamente interligados por arestas, cujos nós são referentes aos hospitais. A partir desse novo grafo, usa-se a biblioteca NetworkX para obter a MST procurada. O algoritmo utilizado é o de Kruskal. A biblioteca NetworkX também oferece como opções o algoritmo de Prim e o de Boruvka. A seguir temos a visualização dessa MST. As arestas aparecem em vermelho.
+Constrói-se então um grafo completo, ou seja, com todos os nós diretamente interligados por arestas, cujos nós são referentes aos hospitais. A partir desse novo grafo, usa-se a biblioteca NetworkX para obter a MST procurada. A MST em um grafo ponderado nas arestas é a árvore que contém todos os nós desse grafo e que possui a menor soma total de comprimento (peso) das arestas. Para obter a MST existem alguns algoritmos já conhecidos, como o de Kruskal, o de Prim e o de Boruvka. A biblioteca NetworkX utiliza por padrão o algoritmo de Kruskal para encontrar a MST de um grafo. Esse algoritmo funciona da seguinte forma: considere um grafo G com N nós. Cria-se um conjunto F de árvores em G com exatamente N árvores, cada uma contendo um dos vértices. Para cada uma das arestas de G, percorrendo-as em ordem crescente, faz-se o seguinte:
+
+* Se a aresta conecta duas árvores distintas de F, junte essas duas árvores em uma única a partir da inclusão dessa aresta;
+* Senão, passe à aresta seguinte.
+* 
+Esse procedimento é repetido até F conter uma única árvore com N-1 arestas. Essa árvore será a MST de G. Caso esgotem-se as arestas de G e não se chegue a uma única árvore em F, então é impossível criar a MST para esse grafo.
+
+A seguir temos a visualização da MST encontrada. As arestas aparecem em vermelho.
 
 ![](U2T3/fig/mst.png)
 

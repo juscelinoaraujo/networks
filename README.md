@@ -175,6 +175,12 @@ Maiores detalhes sobre a construção da solução podem ser encontrados neste [
 
 ## Projeto 4 - Medidas de Centralidade
 
+![](U3P1/fig/closeness.png)
 
+![](U3P1/fig/betweenness.png)
+
+![](U3P1/fig/eigenvalue.png)
+
+![](U3P1/fig/core.png)
 
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

@@ -173,4 +173,8 @@ A seguir temos a visualização da MST encontrada. As arestas aparecem em vermel
 
 Maiores detalhes sobre a construção da solução podem ser encontrados neste [notebook](U2T3/kruskal_natal.ipynb). Há também um [artigo](https://medium.com/@juscelinoaraujo/árvore-geradora-mínima-entre-hospitais-de-natal-aplicação-do-algoritmo-de-kruskal-6ed98edcc494) no Medium e um [podcast](https://notebooklm.google.com/notebook/d0acff8d-b5ee-4221-850c-3704515364e8/audio) sobre o trabalho realizado.
 
+## Projeto 4 - Medidas de Centralidade
+
+
+
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

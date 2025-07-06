@@ -183,4 +183,6 @@ Maiores detalhes sobre a construção da solução podem ser encontrados neste [
 
 ![](U3P1/fig/core.png)
 
+<img src="U3P1/fig/core.png" width="400" />
+
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

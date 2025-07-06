@@ -187,4 +187,8 @@ A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-she
 
 <img src="U3P1/fig/k-core.png" width="500" />
 
+O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/network/) 
+
+Maiores informações podem ser obtidas na [pasta do projeto](U3P1/) ou neste [vídeo]() explicativo.
+
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

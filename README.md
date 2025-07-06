@@ -179,7 +179,7 @@ A seguir, temos respectivamente as imagens do grafo colorindo os nós de acordo 
 
 <img src="U3P1/fig/closeness.png" width="500" />
 
-<img src="U3P1/fig/etweenness.png" width="500" />
+<img src="U3P1/fig/betweenness.png" width="500" />
 
 <img src="U3P1/fig/eigenvalue.png" width="500" />
 

@@ -175,14 +175,16 @@ Maiores detalhes sobre a construção da solução podem ser encontrados neste [
 
 ## Projeto 4 - Medidas de Centralidade
 
-![](U3P1/fig/closeness.png)
+A seguir, temos respectivamente as imagens do grafo colorindo os nós de acordo com três critérios: centralidade de proximidade, centralidade de intermediação e centralidade de autovalor. Em cada caso, quanto mais próximo do vermelho, maior o valor do atributo. O tamanho do nó é diretamente proporcional ao grau do nó, com exceção dos nós com grau zero, que estão do mesmo tamanho que os nós de grau 1.
 
-![](U3P1/fig/betweenness.png)
+<img src="U3P1/fig/closeness.png" width="500" />
 
-![](U3P1/fig/eigenvalue.png)
+<img src="U3P1/fig/etweenness.png" width="500" />
 
-![](U3P1/fig/k-core.png)
+<img src="U3P1/fig/eigenvalue.png" width="500" />
 
-<img src="U3P1/fig/k-core.png" width="400" />
+A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-shell (em azul). Os demais nós estão em preto.
+
+<img src="U3P1/fig/k-core.png" width="500" />
 
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

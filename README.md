@@ -175,7 +175,14 @@ Maiores detalhes sobre a construção da solução podem ser encontrados neste [
 
 ## Projeto 4 - Medidas de Centralidade
 
-Este projeto tem por objetivo explorar o estudo de algumas medidas de centralidade através de uma rede anonimizada empregada para teste. Para esse estudo, foi usada a biblioteca NetworkX e o software Gephi. As medidas de centralidade têm a função de avaliar a relevância dos nós na rede segundo distintos critérios.
+Este projeto tem por objetivo explorar o estudo de algumas medidas de centralidade através de uma rede anonimizada empregada para teste. Para esse estudo, foi usada a biblioteca NetworkX e o software Gephi. As medidas de centralidade têm a função de avaliar a relevância dos nós na rede segundo distintos critérios. Algumas das principais são:
+
+* Centralidade de grau;
+* Centralidade de proximidade;
+* Centralidade de intermediação; e
+* Centralidade de autovalores.
+
+A **centralidade de grau** é uma medida diretamente proporcional ao número de conexões do nó. A partir dela é possível identificar nós que localmente possuem grande influência na rede. A **centralidade de proximidade** mede o quão rapidamente se pode ir de um nó até todos os outros. Assim, essa medida destaca nós que permitem a disseminação mais rápida de uma informação na rede. A **centralidade de intermediação**. Detalhes de como as medidas apresentadas aqui são calculadas e informações sobre outras medidas de centralidade podem ser obtidas nesta [página](https://pt.wikipedia.org/wiki/Centralidade) da Wikipédia.
 
 A seguir, temos respectivamente as imagens do grafo colorindo os nós de acordo com três critérios: centralidade de proximidade, centralidade de intermediação e centralidade de autovalor. Em cada caso, quanto mais próximo do vermelho, maior o valor do atributo. O tamanho do nó é diretamente proporcional ao grau do nó, com exceção dos nós com grau zero, que estão do mesmo tamanho que os nós de grau 1.
 
@@ -189,7 +196,7 @@ A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-she
 
 <img src="U3P1/fig/k-core.png" width="500" />
 
-O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/network/) 
+O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/network/). 
 
 Maiores informações podem ser obtidas na [pasta do projeto](U3P1/) ou neste [vídeo]() explicativo.
 

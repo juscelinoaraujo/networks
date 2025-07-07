@@ -192,11 +192,11 @@ A seguir, temos respectivamente as imagens do grafo colorindo os nós de acordo 
 
 <img src="U3P1/fig/eigenvalue.png" width="500" />
 
-A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-shell (em azul). Os demais nós estão em preto. O **k-core** de uma rede é o subgrafo maximal com todos os nós contendo ao menos k conexões dentro desse mesmo subgrafo. O **k-shell** é composto pelos nós que fazem parte do k-core mas não do (k+1)-core. Os k-core representam uma maneira de representar de forma escalonada grupos influentes na rede.
+A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-shell (em azul). Os demais nós estão em preto. O **k-core** de uma rede é o subgrafo maximal com todos os nós contendo ao menos k conexões dentro desse mesmo subgrafo. O **k-shell** é composto pelos nós que fazem parte do k-core mas não do (k+1)-core. Os k-core são uma maneira de representar de forma escalonada grupos influentes na rede.
 
 <img src="U3P1/fig/k-core.png" width="500" />
 
-O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/network/). 
+O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/network/). A cores representam comunidades distintas obtidas no Gephi para esta rede a partir do critério de modularidade.
 
 Maiores informações podem ser obtidas na [pasta do projeto](U3P1/) ou neste [vídeo]() explicativo.
 

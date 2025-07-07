@@ -184,7 +184,7 @@ Este projeto tem por objetivo explorar o estudo de algumas medidas de centralida
 
 A **centralidade de grau** é uma medida diretamente proporcional ao número de conexões do nó. A partir dela é possível identificar nós que localmente possuem grande influência na rede. A **centralidade de proximidade** mede o quão rapidamente se pode ir de um nó até todos os outros. Assim, essa medida destaca nós que permitem a disseminação mais rápida de uma informação na rede. A **centralidade de intermediação** mede a fração de caminhos mais curtos que passam pelo nó em questão. Desse modo, essa medida destaca nós que podem ser vistos como "gargalos" na rede, ou seja, nós necessários para que a informação circule na rede. Já a **centralidade de autovalores** mede a relevância de um nó a partir de seus vizinhos. Assim, mesmo que um nó não tenha muitos vizinhos, a relevância desses vizinhos na rede pode fazer com que o nó em questão tenha alta medida de de centralidade de autovalores. Detalhes de como as medidas apresentadas aqui são calculadas e informações sobre outras medidas de centralidade podem ser obtidas nesta [página](https://pt.wikipedia.org/wiki/Centralidade) da Wikipédia.
 
-A seguir, temos respectivamente as imagens do grafo colorindo os nós de acordo com três critérios: centralidade de proximidade, centralidade de intermediação e centralidade de autovalor. Em cada caso, quanto mais próximo do vermelho, maior o valor do atributo. O tamanho do nó é diretamente proporcional ao grau do nó, com exceção dos nós com grau zero, que estão do mesmo tamanho que os nós de grau 1.
+A seguir, temos respectivamente as imagens do grafo colorindo os nós de acordo com três critérios: centralidade de proximidade, centralidade de intermediação e centralidade de autovalor. Em cada caso, quanto mais próximo do vermelho, maior o valor do atributo. O tamanho do nó é diretamente proporcional ao grau do nó, com exceção dos nós com grau zero, que estão do mesmo tamanho que os nós de grau 1. Dessa maneira, a informação trazida com o tamanho do nó é equivalente à da centralidade de grau. 
 
 <img src="U3P1/fig/closeness.png" width="500" />
 
@@ -192,7 +192,7 @@ A seguir, temos respectivamente as imagens do grafo colorindo os nós de acordo 
 
 <img src="U3P1/fig/eigenvalue.png" width="500" />
 
-A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-shell (em azul). Os demais nós estão em preto.
+A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-shell (em azul). Os demais nós estão em preto. O **k-core** de uma rede é o subgrafo maximal com todos os nós contendo ao menos k conexões dentro desse mesmo subgrafo. O **k-shell** é composto pelos nós que fazem parte do k-core mas não do (k+1)-core. Os k-core representam uma maneira de representar de forma escalonada grupos influentes na rede.
 
 <img src="U3P1/fig/k-core.png" width="500" />
 

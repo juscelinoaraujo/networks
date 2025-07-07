@@ -175,6 +175,8 @@ Maiores detalhes sobre a construção da solução podem ser encontrados neste [
 
 ## Projeto 4 - Medidas de Centralidade
 
+Este projeto tem por objetivo explorar o estudo de algumas medidas de centralidade através de uma rede anonimizada empregada para teste. Para esse estudo, foi usada a biblioteca NetworkX e o software Gephi. As medidas de centralidade têm a função de avaliar a relevância dos nós na rede segundo distintos critérios.
+
 A seguir, temos respectivamente as imagens do grafo colorindo os nós de acordo com três critérios: centralidade de proximidade, centralidade de intermediação e centralidade de autovalor. Em cada caso, quanto mais próximo do vermelho, maior o valor do atributo. O tamanho do nó é diretamente proporcional ao grau do nó, com exceção dos nós com grau zero, que estão do mesmo tamanho que os nós de grau 1.
 
 <img src="U3P1/fig/closeness.png" width="500" />

@@ -173,7 +173,7 @@ A seguir temos a visualização da MST encontrada. As arestas aparecem em vermel
 
 Maiores detalhes sobre a construção da solução podem ser encontrados neste [notebook](U2T3/kruskal_natal.ipynb). Há também um [artigo](https://medium.com/@juscelinoaraujo/árvore-geradora-mínima-entre-hospitais-de-natal-aplicação-do-algoritmo-de-kruskal-6ed98edcc494) no Medium e um [podcast](https://notebooklm.google.com/notebook/d0acff8d-b5ee-4221-850c-3704515364e8/audio) sobre o trabalho realizado.
 
-## Projeto 4 - Medidas de Centralidade
+## Projeto 5 - Medidas de Centralidade
 
 Este projeto tem por objetivo explorar o estudo de algumas medidas de centralidade através de uma rede anonimizada empregada para teste. Para esse estudo, foi usada a biblioteca NetworkX e o software Gephi. As medidas de centralidade têm a função de avaliar a relevância dos nós na rede segundo distintos critérios. Algumas das principais são:
 

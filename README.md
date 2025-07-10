@@ -215,17 +215,17 @@ A **centralidade de grau** é uma medida diretamente proporcional ao número de 
 
 A seguir, temos respectivamente as imagens do grafo colorindo os nós de acordo com três critérios: centralidade de proximidade, centralidade de intermediação e centralidade de autovalor. Em cada caso, quanto mais próximo do vermelho, maior o valor do atributo. O tamanho do nó é diretamente proporcional ao grau do nó, com exceção dos nós com grau zero, que estão do mesmo tamanho que os nós de grau 1. Dessa maneira, a informação trazida com o tamanho do nó é equivalente à da centralidade de grau. 
 
-<img src="U3P2/fig/1TUP-closeness.png" width="500" />
+<img src="U3P2/fig/1TUP-closeness.png" width="800" />
 
-<img src="U3P2/fig/1TUP-betweenness.png" width="500" />
+<img src="U3P2/fig/1TUP-betweenness.png" width="800" />
 
-<img src="U3P2/fig/1TUP-eigenvalue.png" width="500" />
+<img src="U3P2/fig/1TUP-eigenvalue.png" width="800" />
 
 Da análise dessas figuras nota-se que quase todos os nós possuem alta centralidade de proximidade. A exceção são alguns nós isolados. O oposto ocorre com a centralidade de intermediação. Apenas alguns nós são representados por cores mais quentes, indicando que eles são gargalos na rede. E menos nós ainda possuem alta centralidade de autovalores, restringindo-se a um pequeno grupo de nós influentes (e com vizinhos influentes). Tanto no caso da centralidade de intermediação quanto da centralidade de autovalores, os nós com altos valores dessas medidas também possuem grau elevado, o que se nota pelo tamanho dos vértices.
 
 A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-shell (em azul). Os demais nós estão em preto. O **k-core** de uma rede é o subgrafo maximal com todos os nós contendo ao menos k conexões dentro desse mesmo subgrafo. O **k-shell** é composto pelos nós que fazem parte do k-core mas não do (k+1)-core. Os k-core são uma maneira de representar de forma escalonada grupos influentes na rede. No grafo a seguir, é interessante notar que boa parte da rede pertence ao 2-shell da rede, restando apenas alguns poucos nós no 3-core.
 
-<img src="U3P2/fig/1TUP-core.png" width="500" />
+<img src="U3P2/fig/1TUP-core.png" width="800" />
 
 O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/network/). A cores representam comunidades distintas obtidas no Gephi para esta rede a partir do critério de modularidade.
 

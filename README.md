@@ -202,4 +202,33 @@ O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/net
 
 Maiores informações podem ser obtidas na [pasta do projeto](U3P1/) ou neste [vídeo](https://www.loom.com/share/2de18783cb6a422bb2e5b53d85736c29?sid=e0c4dd3f-c618-42b4-956d-8f8c010ff4d1) explicativo.
 
+## Projeto 6 - Análise de Molécula da Proteína 1TUP
+
+Este projeto tem por objetivo explorar o estudo de algumas medidas de centralidade através de uma rede anonimizada empregada para teste. Para esse estudo, foi usada a biblioteca NetworkX e o software Gephi. As medidas de centralidade têm a função de avaliar a relevância dos nós na rede segundo distintos critérios. Algumas das principais são:
+
+* Centralidade de grau;
+* Centralidade de proximidade;
+* Centralidade de intermediação; e
+* Centralidade de autovalores.
+
+A **centralidade de grau** é uma medida diretamente proporcional ao número de conexões do nó. A partir dela é possível identificar nós que localmente possuem grande influência na rede. A **centralidade de proximidade** mede o quão rapidamente se pode ir de um nó até todos os outros. Assim, essa medida destaca nós que permitem a disseminação mais rápida de uma informação na rede. A **centralidade de intermediação** mede a fração de caminhos mais curtos que passam pelo nó em questão. Desse modo, essa medida destaca nós que podem ser vistos como "gargalos" na rede, ou seja, nós necessários para que a informação circule na rede. Já a **centralidade de autovalores** mede a relevância de um nó a partir de seus vizinhos. Assim, mesmo que um nó não tenha muitos vizinhos, a relevância desses vizinhos na rede pode fazer com que o nó em questão tenha alta medida de de centralidade de autovalores. Detalhes de como as medidas apresentadas aqui são calculadas e informações sobre outras medidas de centralidade podem ser obtidas nesta [página](https://pt.wikipedia.org/wiki/Centralidade) da Wikipédia.
+
+A seguir, temos respectivamente as imagens do grafo colorindo os nós de acordo com três critérios: centralidade de proximidade, centralidade de intermediação e centralidade de autovalor. Em cada caso, quanto mais próximo do vermelho, maior o valor do atributo. O tamanho do nó é diretamente proporcional ao grau do nó, com exceção dos nós com grau zero, que estão do mesmo tamanho que os nós de grau 1. Dessa maneira, a informação trazida com o tamanho do nó é equivalente à da centralidade de grau. 
+
+<img src="U3P2/fig/1TUP-closeness.png" width="500" />
+
+<img src="U3P2/fig/1TUP-betweenness.png" width="500" />
+
+<img src="U3P2/fig/1TUP-eigenvalue.png" width="500" />
+
+Da análise dessas figuras nota-se que quase todos os nós possuem alta centralidade de proximidade. A exceção são alguns nós isolados. O oposto ocorre com a centralidade de intermediação. Apenas alguns nós são representados por cores mais quentes, indicando que eles são gargalos na rede. E menos nós ainda possuem alta centralidade de autovalores, restringindo-se a um pequeno grupo de nós influentes (e com vizinhos influentes). Tanto no caso da centralidade de intermediação quanto da centralidade de autovalores, os nós com altos valores dessas medidas também possuem grau elevado, o que se nota pelo tamanho dos vértices.
+
+A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-shell (em azul). Os demais nós estão em preto. O **k-core** de uma rede é o subgrafo maximal com todos os nós contendo ao menos k conexões dentro desse mesmo subgrafo. O **k-shell** é composto pelos nós que fazem parte do k-core mas não do (k+1)-core. Os k-core são uma maneira de representar de forma escalonada grupos influentes na rede. No grafo a seguir, é interessante notar que boa parte da rede pertence ao 2-shell da rede, restando apenas alguns poucos nós no 3-core.
+
+<img src="U3P2/fig/1TUP-core.png" width="500" />
+
+O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/network/). A cores representam comunidades distintas obtidas no Gephi para esta rede a partir do critério de modularidade.
+
+Maiores informações podem ser obtidas na [pasta do projeto](U3P1/) ou neste [vídeo](https://www.loom.com/share/2de18783cb6a422bb2e5b53d85736c29?sid=e0c4dd3f-c618-42b4-956d-8f8c010ff4d1) explicativo.
+
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

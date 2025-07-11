@@ -232,7 +232,7 @@ A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-she
 
 <img src="U3P2/fig/1TUP-core.png" width="800" />
 
-O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/network/). A cores representam comunidades distintas obtidas no Gephi para esta rede a partir do critério de modularidade.
+O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/1TUP/). A cores representam comunidades distintas obtidas no Gephi para esta rede a partir do critério de modularidade.
 
 Maiores informações podem ser obtidas na [pasta do projeto](U3P1/) ou neste [vídeo](https://www.loom.com/share/2de18783cb6a422bb2e5b53d85736c29?sid=e0c4dd3f-c618-42b4-956d-8f8c010ff4d1) explicativo.
 

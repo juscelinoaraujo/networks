@@ -236,7 +236,7 @@ A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-she
 
 <img src="U3P2/fig/cumulative_density_function.png" width="600" />
 
-<img src="U3P2/fig/all.png" width="00" />
+<img src="U3P2/fig/all.png" width="600" />
 
 O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/1TUP/). A cores representam comunidades distintas obtidas no Gephi para esta rede a partir do critério de modularidade.
 

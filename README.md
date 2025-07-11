@@ -232,9 +232,9 @@ A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-she
 
 <img src="U3P2/fig/1TUP-core.png" width="800" />
 
-<img src="U3P2/fig/probability_density_function.png" width="800" />
+<img src="U3P2/fig/probability_density_function.png" width="600" />
 
-<img src="U3P2/fig/cumulative_density_functio.png" width="800" />
+<img src="U3P2/fig/cumulative_density_function.png" width="600" />
 
 <img src="U3P2/fig/all.png" width="800" />
 

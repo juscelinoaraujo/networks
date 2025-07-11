@@ -205,12 +205,9 @@ Maiores informações podem ser obtidas na [pasta do projeto](U3P1/) ou neste [v
 ## Projeto 6 - Análise de Molécula da Proteína 1TUP
 
 **Autores:**
-
-__* Juscelino Pereira de Araújo__
-
-__* Maria Eduarda Lima da Luz__
-
-__* Daniel Bruno Trindade da Silva__
+* __Juscelino Pereira de Araújo__
+* __Maria Eduarda Lima da Luz__
+* __Daniel Bruno Trindade da Silva__
 
 Este projeto tem por objetivo explorar o estudo de algumas medidas de centralidade através de uma rede anonimizada empregada para teste. Para esse estudo, foi usada a biblioteca NetworkX e o software Gephi. As medidas de centralidade têm a função de avaliar a relevância dos nós na rede segundo distintos critérios. Algumas das principais são:
 

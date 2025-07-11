@@ -202,7 +202,7 @@ O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/net
 
 Maiores informações podem ser obtidas na [pasta do projeto](U3P1/) ou neste [vídeo](https://www.loom.com/share/2de18783cb6a422bb2e5b53d85736c29?sid=e0c4dd3f-c618-42b4-956d-8f8c010ff4d1) explicativo.
 
-## Projeto 6 - Análise de Molécula da Proteína 1TUP
+## Projeto 6 - Análise da Rede de Resíduos de Aminoácidos da Proteína 1TUP
 
 **Autores:**
 * __Juscelino Pereira de Araújo__

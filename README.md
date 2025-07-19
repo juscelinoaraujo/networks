@@ -233,7 +233,7 @@ A seguir passamos para a análise da distribuição dos graus dos vértices. Na 
 
 <img src="U3P2/fig/probability_density_function.png" width="600" />
 
-A seguir temos uma imagem com a função de densidade acumulada. Uma forma de conhecer melhor o comportamento desse grafo é a partir de alguns quantis. Por exemplo, 25%, 50% e 75%. Para essa distribuição, esses valores foram calculados como sendo 1, 2 e 3, respectivamente. No entanto, como há vários nós com esses valores de grau, é interessante também saber qual o porcentual de nós com grau menor do que ou igual a 1, 2 e 3. Esses valores são 41,59%, 61,90% w 79,05%, respectivamente.
+A seguir temos uma imagem com a função de densidade acumulada. Uma forma de conhecer melhor o comportamento desse grafo é a partir de alguns quantis. Por exemplo, 25%, 50% e 75%. Para essa distribuição, esses valores foram calculados como sendo 1, 2 e 3, respectivamente. No entanto, como há vários nós com esses valores de grau, é interessante também saber qual o porcentual de nós com grau menor do que ou igual a 1, 2 e 3. Esses valores são 41,59%, 61,90% e 79,05%, respectivamente.
 
 <img src="U3P2/fig/cumulative_density_function.png" width="600" />
 
@@ -241,6 +241,6 @@ A seguir temos uma imagem com a função de densidade acumulada. Uma forma de co
 
 O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/1TUP/). A cores representam comunidades distintas obtidas no Gephi para esta rede a partir do critério de modularidade.
 
-Maiores informações podem ser obtidas na [pasta do projeto](U3P2/) ou neste [vídeo](https://www.loom.com/share/2de18783cb6a422bb2e5b53d85736c29?sid=e0c4dd3f-c618-42b4-956d-8f8c010ff4d1) explicativo.
+Maiores informações podem ser obtidas na [pasta do projeto](U3P2/) ou nestes vídeos explicativos ([parte 1](https://www.loom.com/share/2de18783cb6a422bb2e5b53d85736c29?sid=e0c4dd3f-c618-42b4-956d-8f8c010ff4d1) e [parte 2](https://www.loom.com/share/2de18783cb6a422bb2e5b53d85736c29?sid=e0c4dd3f-c618-42b4-956d-8f8c010ff4d1)).
 
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

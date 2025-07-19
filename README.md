@@ -237,6 +237,8 @@ A seguir temos uma imagem com a função de densidade acumulada. Uma forma de co
 
 <img src="U3P2/fig/cumulative_density_function.png" width="600" />
 
+Por fim, o gráfico abaixo mostra uma análise multivariada das principais métricas de centralidade do grafo da proteína 1TUP. Trata-se da matriz de dispersão com densidade, o que permite observar distribuições univariadas (diagonal) e correlações entre métricas (fora da diagonal). É possível perceber forte correlação entre grau e centralidade de proximidade e entre grau e centralidade de autovalor, com agrupamentos em destaque.
+
 <img src="U3P2/fig/all.png" width="600" />
 
 O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/1TUP/). A cores representam comunidades distintas obtidas no Gephi para esta rede a partir do critério de modularidade.

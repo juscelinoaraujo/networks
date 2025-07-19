@@ -229,9 +229,11 @@ Da análise dessas figuras nota-se que os nós mais centrais (sob todos os crit�
 
 Nessa figura o 2-shell é visualizado em azul e os demais nós estão em preto. O **k-core** de uma rede é o subgrafo maximal com todos os nós contendo ao menos k conexões dentro desse mesmo subgrafo. O **k-shell** é composto pelos nós que fazem parte do k-core mas não do (k+1)-core. Os k-core são uma maneira de representar de forma escalonada grupos influentes na rede. Boa parte dos nós do grafo pertencem ao 2-shell que, de maneira geral, fazem um papel intermediário entre o 3-core e nós mais periféricos na rede. Dessa análise acerca de medidas de centralidade conclui-se que esses nós mais centrais são pontos de interesse para avaliação de mutações e para o desenvolvimento de terapias.
 
-A seguir passamos para a análise da distribuição dos graus dos vértices. Na imagem abaixo, temos a estimação da função de densidade de probabilidade. Para essa distribuição, toma-se a moda como sendo seu início. Foi calculado que ela vale 1. Há 171 nós com esse grau. Por outro lado, toma-se a região cujo grau está mais de dois desvios-padrão acima da média como sendo a cauda. Desse modo, calculou-se que estão na cauda nós com grau acima de 5. Há no grafo 8 nós na cauda (com grau maior do que ou igual a 6).
+A seguir passamos para a análise da distribuição dos graus dos vértices. Na imagem abaixo, temos a estimação da função de densidade de probabilidade. Para essa distribuição, toma-se a moda como sendo seu início. Foi calculado que ela vale 1. Há 171 nós com esse grau. Por outro lado, toma-se a região cujo grau está mais de dois desvios-padrão acima da média como sendo a cauda. Desse modo, calculou-se que estão na cauda nós com grau acima de 5. Há no grafo 10 nós na cauda (com grau maior do que ou igual a 6).
 
 <img src="U3P2/fig/probability_density_function.png" width="600" />
+
+A seguir temos uma imagem com a função de densidade acumulada. Uma forma de conhecer melhor o comportamento desse grafo é a partir de alguns quantis. Por exemplo, 25%, 50% e 75%. Para essa distribuição, esses valores foram calculados como sendo 1, 2 e 3, respectivamente. No entanto, como há vários nós com esses valores de grau, é interessante também saber qual o porcentual de nós com grau menor do que ou igual a 1, 2 e 3. Esses valores são 41,59%, 61,90% w 79,05%, respectivamente.
 
 <img src="U3P2/fig/cumulative_density_function.png" width="600" />
 

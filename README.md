@@ -223,11 +223,11 @@ A seguir, temos respectivamente as imagens do grafo colorindo os nós de acordo 
 
 <img src="U3P2/fig/1TUP-eigenvalue.png" width="800" />
 
-Da análise dessas figuras nota-se que quase todos os nós possuem alta centralidade de proximidade. A exceção são alguns nós isolados. O oposto ocorre com a centralidade de intermediação. Apenas alguns nós são representados por cores mais quentes, indicando que eles são gargalos na rede. E menos nós ainda possuem alta centralidade de autovalores, restringindo-se a um pequeno grupo de nós influentes (e com vizinhos influentes). Tanto no caso da centralidade de intermediação quanto da centralidade de autovalores, os nós com altos valores dessas medidas também possuem grau elevado, o que se nota pelo tamanho dos vértices.
-
-A seguir temos uma imagem do grafo evidenciando o 3-core (em vermelho) e o 2-shell (em azul). Os demais nós estão em preto. O **k-core** de uma rede é o subgrafo maximal com todos os nós contendo ao menos k conexões dentro desse mesmo subgrafo. O **k-shell** é composto pelos nós que fazem parte do k-core mas não do (k+1)-core. Os k-core são uma maneira de representar de forma escalonada grupos influentes na rede. No grafo a seguir, é interessante notar que boa parte da rede pertence ao 2-shell da rede, restando apenas alguns poucos nós no 3-core.
+Da análise dessas figuras nota-se que os nós mais centrais (sob todos os critérios) se encontram razoavelmente próximos em uma região de formato aparentemente linear à  direita. Isso é indicativo de que esses resíduos possuem papel estrutural importante. Algo que também é evidenciado a partir da observação do 3-core do grafo, como na figura a seguir (em vermelho).
 
 <img src="U3P2/fig/1TUP-core.png" width="800" />
+
+Nessa figura o 2-shell é visualizado em azul e os demais nós estão em preto. O **k-core** de uma rede é o subgrafo maximal com todos os nós contendo ao menos k conexões dentro desse mesmo subgrafo. O **k-shell** é composto pelos nós que fazem parte do k-core mas não do (k+1)-core. Os k-core são uma maneira de representar de forma escalonada grupos influentes na rede. Boa parte dos nós do grafo pertencem ao 2-shell que, de maneira geral, fazem um papel intermediário entre o 3-core e nós mais periféricos na rede.
 
 <img src="U3P2/fig/probability_density_function.png" width="600" />
 

@@ -204,12 +204,9 @@ Maiores informações podem ser obtidas na [pasta do projeto](U3P1/) ou neste [v
 
 ## Projeto 6 - Análise da Rede de Resíduos de Aminoácidos da Proteína 1TUP
 
-**Autores:**
-* __Juscelino Pereira de Araújo__
-* __Maria Eduarda Lima da Luz__
-* __Daniel Bruno Trindade da Silva__
+Este projeto tem por objetivo explorar algumas propriedades da proteína 1TUP. O estudo dessa proteína permite entender como sequências específicas de DNA são reconhecidas e como mutações podem comprometer sua função, levando ao desenvolvimento de diversos tipos de câncer. Assim, o estudo da 1TUP é fundamental não apenas para compreender os mecanismos moleculares da supressão tumoral, mas também para o desenvolvimento de terapias anticâncer mais eficazes, direcionadas à restauração da atividade da p53 mutante ou ao fortalecimento de suas vias regulatórias. Essa proteína é estudada aqui como um grafo no qual os nós correspondem a resíduos de aminoácidos individuais e as arestas representam ligações não covalentes entre eles. Para esse estudo, foi usada a biblioteca NetworkX e o software Gephi. 
 
-Este projeto tem por objetivo explorar o estudo de algumas medidas de centralidade através de uma rede anonimizada empregada para teste. Para esse estudo, foi usada a biblioteca NetworkX e o software Gephi. As medidas de centralidade têm a função de avaliar a relevância dos nós na rede segundo distintos critérios. Algumas das principais são:
+A análise realizada aqui se baseia na observação do comportamento de medidas de centralidade e da distribuição dos graus dos vértices. As medidas de centralidade têm a função de avaliar a relevância dos nós na rede segundo distintos critérios. Algumas das principais são:
 
 * Centralidade de grau;
 * Centralidade de proximidade;

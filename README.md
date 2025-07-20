@@ -4,6 +4,7 @@
 
 Este repositório destina-se ao compartilhamento dos artefatos produzidos na disciplina DCA3702 - Algoritmos e Estruturas de Dados II, ministrada pelo professor Ivanovitch Medeiros da Universidade Federal do Rio Grande do Norte (UFRN) no semestre 2025.1. Cada seção irá tratar de um diferente projeto desenvolvido ao longo do semestre.
 
+## Sumário
 * [Projeto 1](https://github.com/juscelinoaraujo/networks/?tab=readme-ov-file#projeto-1---redes-temporais-de-coautoria)
 * [Projeto 2](https://github.com/juscelinoaraujo/networks/?tab=readme-ov-file#projeto-2---an%C3%A1lise-de-assortatividade-em-grafo-de-ingredientes-da-culin%C3%A1ria-brasileira)
 * [Projeto 3](https://github.com/juscelinoaraujo/networks/?tab=readme-ov-file#projeto-3---elabora%C3%A7%C3%A3o-de-estrat%C3%A9gia-de-rotas-usando-dijkstra-e-a)

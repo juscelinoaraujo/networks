@@ -243,6 +243,6 @@ Por fim, o gráfico abaixo mostra uma análise multivariada das principais métr
 
 O grafo está publicado no seguinte [link](https://juscelinoaraujo.github.io/netdeploy/1TUP/). A cores representam comunidades distintas obtidas no Gephi para esta rede a partir do critério de modularidade.
 
-Maiores informações podem ser obtidas na [pasta do projeto](U3P2/) ou nestes vídeos explicativos ([parte 1](https://www.loom.com/share/2de18783cb6a422bb2e5b53d85736c29?sid=e0c4dd3f-c618-42b4-956d-8f8c010ff4d1) e [parte 2](https://www.loom.com/share/2de18783cb6a422bb2e5b53d85736c29?sid=e0c4dd3f-c618-42b4-956d-8f8c010ff4d1)).
+Maiores informações podem ser obtidas na [pasta do projeto](U3P2/) ou nestes vídeos explicativos ([parte 1](https://www.loom.com/share/59482f1b5bf14eedafd90209ea29ea39?sid=bed664ce-66ba-4fd4-87b0-19fb98b76e48) e [parte 2](https://www.loom.com/share/af34e21c9b734ee592b85a09eb60cbca?sid=05cafc8f-6ec3-486e-98c3-05488816f67c)).
 
 *Na elaboração dos textos que dão suporte às análises técnicas apresentadas neste documento, fez-se uso da ferramenta ChatGPT, da OpenAI. Todo o texto foi revisado minuciosamente pelo autor para garantir precisão e adequação ao contexto.*

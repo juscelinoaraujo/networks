@@ -4,6 +4,14 @@
 
 Este repositório destina-se ao compartilhamento dos artefatos produzidos na disciplina DCA3702 - Algoritmos e Estruturas de Dados II, ministrada pelo professor Ivanovitch Medeiros da Universidade Federal do Rio Grande do Norte (UFRN) no semestre 2025.1. Cada seção irá tratar de um diferente projeto desenvolvido ao longo do semestre.
 
+* [Projeto 1](https://github.com/juscelinoaraujo/networks/?tab=readme-ov-file#projeto-1---redes-temporais-de-coautoria)
+* [Projeto 2](https://github.com/juscelinoaraujo/networks/?tab=readme-ov-file#projeto-2---an%C3%A1lise-de-assortatividade-em-grafo-de-ingredientes-da-culin%C3%A1ria-brasileira)
+* [Projeto 3](https://github.com/juscelinoaraujo/networks/?tab=readme-ov-file#projeto-3---elabora%C3%A7%C3%A3o-de-estrat%C3%A9gia-de-rotas-usando-dijkstra-e-a)
+* [Projeto 4](https://github.com/juscelinoaraujo/networks/?tab=readme-ov-file#projeto-4---%C3%A1rvore-geradora-m%C3%ADnima-entre-hospitais-de-natal-aplica%C3%A7%C3%A3o-do-algoritmo-dekruskal)
+* [Projeto 5](https://github.com/juscelinoaraujo/networks/?tab=readme-ov-file#projeto-5---medidas-de-centralidade)
+* [Projeto 6](https://github.com/juscelinoaraujo/networks/?tab=readme-ov-file#projeto-6---an%C3%A1lise-da-rede-de-res%C3%ADduos-de-amino%C3%A1cidos-da-prote%C3%ADna-1tup)
+
+
 ## Projeto 1 - Redes Temporais de Coautoria
 
 As redes de coautoria em trabalhos científicos são um importante ferramenta indicativa de colaboração entre pesquisadores, refletindo tanto a integração acadêmica quanto o compartilhamento do conhecimento produzido entre diferentes instituições. Por meio delas, é possível observar como o desenvolvimento científico se articula de maneira coletiva, favorecendo a inovação, o aumento da produtividade científica e a disseminação de ideias. Assim, a análise das redes de coautoria permite identificar pesquisadores mais influentes, grupos de pesquisa com maior consolidação e possíveis lacunas de colaboração, servindo como ferramenta estratégica para o planejamento de políticas científicas e acadêmicas.
